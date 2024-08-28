@@ -1,0 +1,70 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.code-snippet-container {
+  display: flex;
+  text-align: left;
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+
+.code-snippet {
+  z-index: 1;
+  white-space: pre-wrap;
+  pointer-events: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.code-item {
+  flex: 1
+}
+
+
+.stats {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-container button {
+  margin-left: 10px;
+}
+
+.leaderboard-container {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.leaderboard-table th {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leaderboard-table tr:hover {
+  background-color: #ddd;
+}
